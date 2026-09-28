@@ -1,15 +1,30 @@
-Expense Tracker
-A simple, interactive command-line interface (CLI) application built in Python for tracking daily expenses. It enables users to log, organize, view, and manage financial transactions locally with automatic persistence in a CSV data file.
+                                       Expense Tracker
+  Description
+  The Expense Tracker is a command-line interface (CLI) application built in Python to help users manage their personal finances. It provides a simple, structured way to log, view, summarize, and organize daily expenses, with all transaction data automatically saved and persisted in a local CSV file (expenses.csv).
 
-Features
-Add Expenses: Log transactions with custom or default dates (YYYY-MM-DD), categories, descriptions, and validated positive amounts.
+  Features & Functionality
+Add Expenses: Record new expenses with a date (YYYY-MM-DD), category, description, and amount.
 
-View All Expenses: Display a formatted tabular view of all recorded expenses along with the total sum spent.
+View All Expenses: Display all recorded transactions in a structured, readable table format along with total overall expenditure.
 
-Monthly Summary: Filter expenses by month (YYYY-MM) to view itemized records and calculate total monthly spending.
+Monthly Summary: Filter expenses by month (YYYY-MM) to track monthly spending and total costs.
 
-Category Breakdown: View total aggregate spending grouped and sorted by category.
+Category Breakdown: Group and view expenses by category to analyze spending habits.
 
-Delete Entries: Easily remove existing expense records using an indexed list prompt.
+Delete Entries: Easily remove existing expense entries from the log.
 
-Automatic CSV Persistence: Stores all data in a local expenses.csv file created in the same directory.
+Data Persistence: Automatically creates and updates expenses.csv to ensure data is saved between sessions.
+
+How to Run
+Prerequisites
+Python 3.x installed on your system.
+
+Steps to Start
+
+1.Clone the repository:
+git clone https://github.com/nishith2529-debug/expense_tracker.git
+cd expense_tracker
+
+2. Run the Python script:
+3. python "expense tracker.py"
+
